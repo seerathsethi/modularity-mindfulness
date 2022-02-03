@@ -19,9 +19,45 @@ html {
 
 body {
   margin: 0;
+  display: grid;
+  grid-template-areas:
+   "banner"
+   "quote"
+   "gravel"
+   "viewing"
+   "symbolism"
+   "footer";
 }
 
 img {
   display: block;
   width: 100%;
+}
+
+header {
+  grid-area: banner;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.125rem;
+  margin: 0;
+  text-align: center;
+}
+
+h1 i {
+  font-size: 2rem;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  padding: 0 0 1rem;
+  margin: 0;
+  justify-content: center;
+}
+
+nav li {
+  list-style-type: none;
+  padding-right: 1rem
 }
