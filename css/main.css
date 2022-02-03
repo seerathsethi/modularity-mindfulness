@@ -157,8 +157,9 @@ footer {
   text-align: center;
 }
 
+/* 608px */
 @media only screen and (min-width: 38em)
-
+{
 body {
   display: grid;
   grid-template-areas:
@@ -173,5 +174,62 @@ body {
 }
 
 header{
+ display: contents;
+}
 
+h1 {
+  grid-area: h1;
+  text-align: left;
+  padding-left: .5rem;
+  font-size: 1.125rem;
+}
+
+h1 i {
+  font-size: 2rem;
+}
+
+nav {
+  grid-area: nav;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1.5rem;
+  padding-bottom: 0;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.banner {
+  grid-area: banner;
+}
+
+div {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+article {
+  padding: 0;
+}
+
+article a {
+  display: flex;
+  align-items: flex-end;
+}
+
+}
+
+/* 1000px version */
+
+@media only screen and (min-width: 62.5em) {
+
+{
+div {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
 }
