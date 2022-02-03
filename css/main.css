@@ -21,12 +21,12 @@ body {
   margin: 0;
   display: grid;
   grid-template-areas:
-   "banner"
-   "quote"
-   "gravel"
-   "viewing"
-   "symbolism"
-   "footer";
+    "banner"
+    "quote"
+    "gravel"
+    "viewing"
+    "symbolism"
+    "footer";
 }
 
 img {
@@ -125,12 +125,12 @@ article a {
   display: flex;
   text-decoration: none;
   color: #3783a3;
-  opacity: 0.5;
+  opacity: .5;
   border-color: #3783a3;
-  border-width: 0.2rem;
-  border-radius: 0.3rem;
+  border-width: .2rem;
+  border-radius: .3rem;
   border-style: solid;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
 }
 
 .viewing {
@@ -158,78 +158,83 @@ footer {
 }
 
 /* 608px */
+
 @media only screen and (min-width: 38em)
+
 {
-body {
-  display: grid;
-  grid-template-areas:
-   "h1 nav nav"
-   "banner banner banner"
-   "quote quote quote"
-   "viewing gravel symbolism"
-   "footer footer footer";
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  margin: 1rem;
-}
 
-header{
- display: contents;
-}
+  body {
+    display: grid;
+    grid-template-areas:
+      "h1 nav nav"
+      "banner banner banner"
+      "quote quote quote"
+      "viewing gravel symbolism"
+      "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem;
+  }
 
-h1 {
-  grid-area: h1;
-  text-align: left;
-  padding-left: .5rem;
-  font-size: 1.125rem;
-}
+  header {
+    display: contents;
+  }
 
-h1 i {
-  font-size: 2rem;
-}
+  h1 {
+    grid-area: h1;
+    text-align: left;
+    padding-left: .5rem;
+    font-size: 1.125rem;
+  }
 
-nav {
-  grid-area: nav;
-}
+  h1 i {
+    font-size: 2rem;
+  }
 
-nav ul {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 1.5rem;
-  padding-bottom: 0;
-}
+  nav {
+    grid-area: nav;
+  }
 
-nav li a {
-  text-decoration: none;
-}
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+  }
 
-.banner {
-  grid-area: banner;
-}
+  nav li a {
+    text-decoration: none;
+  }
 
-div {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
+  .banner {
+    grid-area: banner;
+  }
 
-article {
-  padding: 0;
-}
+  div {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 
-article a {
-  display: flex;
-  align-items: flex-end;
-}
+  article {
+    padding: 0;
+  }
+
+  article a {
+    display: flex;
+    align-items: flex-end;
+  }
 
 }
 
 /* 1000px version */
 
-@media only screen and (min-width: 62.5em) {
+@media only screen and (min-width: 62.5em)
 
 {
-div {
-  margin-left: 12rem;
-  margin-right: 12rem;
-}
+
+  div {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+
 }
