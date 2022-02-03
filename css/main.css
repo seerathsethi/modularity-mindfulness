@@ -92,3 +92,35 @@ div p {
   border-bottom-color: #e2e2e2;
   margin: 0;
 }
+
+section {
+  display: contents;
+}
+
+h2 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+h2 i {
+  font-size: 1.5rem;
+}
+
+article {
+  padding: 1rem 1rem 0;
+}
+
+article p {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+article img {
+  padding: 0;
+}
+
+article a {
+  display: flex;
+}
