@@ -59,5 +59,36 @@ nav ul {
 
 nav li {
   list-style-type: none;
-  padding-right: 1rem
+  padding-right: 1rem;
+}
+
+nav li a {
+  font-size: 1.125rem;
+  color: #3783a3;
+}
+
+main {
+  display: contents;
+  padding: 1rem;
+}
+
+div {
+  grid-area: quote;
+  padding: .5rem 1rem;
+}
+
+div p i {
+  font-size: 2rem;
+}
+
+div p {
+  font-size: 1rem;
+  padding: 1rem 1rem 1.5rem;
+  text-align: center;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  border-top-color: #e2e2e2;
+  border-bottom-color: #e2e2e2;
+  margin: 0;
 }
