@@ -35,14 +35,11 @@ img {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   grid-area: banner;
-  padding: 1rem;
-}
-
-h1 {
-  font-size: 1.125rem;
-  margin: 0;
-  text-align: center;
+  padding: 1rem .5rem;
 }
 
 h1 i {
@@ -50,11 +47,17 @@ h1 i {
   text-align: center;
 }
 
+h1 {
+  font-size: 1.125rem;
+  text-align: center;
+  margin: 0;
+}
+
 nav ul {
   display: flex;
   padding: 0 0 1rem;
-  margin: 0;
   justify-content: center;
+  margin: 0;
 }
 
 nav li {
@@ -68,8 +71,8 @@ nav li a {
 }
 
 main {
-  display: contents;
   padding: 1rem;
+  display: contents;
 }
 
 div {
@@ -83,14 +86,14 @@ div p i {
 
 div p {
   font-size: 1rem;
-  padding: 1rem 1rem 1.5rem;
   text-align: center;
+  margin: 0;
+  padding: 1rem 1rem 1.5rem;
   border-style: solid;
   border-right: none;
   border-left: none;
   border-top-color: #e2e2e2;
   border-bottom-color: #e2e2e2;
-  margin: 0;
 }
 
 section {
@@ -98,9 +101,9 @@ section {
 }
 
 h2 {
+  margin: 0;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  margin: 0;
   font-size: 1rem;
 }
 
@@ -151,10 +154,10 @@ article a {
 }
 
 footer {
-  grid-area: footer;
-  border-top-style: solid;
-  border-top-color: #e2e2e2;
   text-align: center;
+  padding: .7em;
+  border-top: .2rem solid #e2e2e2;
+  font-size: .8rem;
 }
 
 /* 608px */
@@ -180,9 +183,9 @@ footer {
 
   h1 {
     grid-area: h1;
+    font-size: 1.125rem;
     text-align: left;
     padding-left: .5rem;
-    font-size: 1.125rem;
   }
 
   h1 i {
