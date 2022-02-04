@@ -23,8 +23,8 @@ body {
   grid-template-areas:
     "banner"
     "quote"
-    "gravel"
     "viewing"
+    "gravel"
     "symbolism"
     "footer";
 }
@@ -123,10 +123,10 @@ article img {
 
 article a {
   display: flex;
-  text-decoration: none;
   color: #3783a3;
-  opacity: .5;
+  text-decoration: none;
   border-color: #3783a3;
+  opacity: .5;
   border-width: .2rem;
   border-radius: .3rem;
   border-style: solid;
@@ -159,9 +159,7 @@ footer {
 
 /* 608px */
 
-@media only screen and (min-width: 38em)
-
-{
+@media only screen and (min-width: 38em) {
 
   body {
     display: grid;
@@ -228,9 +226,7 @@ footer {
 
 /* 1000px version */
 
-@media only screen and (min-width: 62.5em)
-
-{
+@media only screen and (min-width: 62.5em) {
 
   div {
     margin-left: 12rem;
